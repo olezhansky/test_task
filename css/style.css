@@ -52,7 +52,7 @@ body {
 .create-pair-input {
     margin-top: 10px;
     width: 300px;
-    padding: 5px;
+    padding: 15px 10px;
     border: 1px solid lightblue;
     outline: none;
 }
