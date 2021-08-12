@@ -1,0 +1,51 @@
+@media (max-width: 610px) {
+    body {
+        background-color: #fff;
+    }
+    .container {
+        margin: 0 auto;
+        padding: 5px 10px;
+    }
+    .validation-text {
+        top: 65px; 
+    }
+    .display-list {
+        width: 340px;
+    }
+    .create-pair-add-btn {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .main-btn {
+        padding: 5px;
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: 400;
+        transition: .3s;
+        max-width: 100px;
+        height: 40px;
+    }
+    .display-inner {
+        display: block;
+    }
+    .display__buttons {
+        max-width: 340px;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 5px;
+    }
+}
+@media (max-width: 424px) {
+    .validation-text {
+        top: 105px; 
+    }
+}
+@media (max-width: 360px) {
+    .display-list {
+        width: 310px;
+    } 
+    .display__buttons {
+        max-width: 310px;
+    } 
+}
